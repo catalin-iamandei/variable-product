@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Product Variations</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="box-wrapper">
+      <form class="form-wrapper">
+        <div class="header">
+          <h3 class="title">Alegeți opțiunile</h3>
+          <a href="javascript:void(0)" class="reset-btn" onclick="resetAllInputs()"><i class="fas fa-undo"></i> Resetează opțiuni</a>
+        </div>
+        <div class="variation">
+          <p>Diametru</p>
+          <div id="diametru">
+            <!-- Populate "Diametru" inputs -->
+          </div>
+        </div>
+        <div class="variation">
+          <p>Material</p>
+          <div id="material">
+            <!-- Populate "Material" inputs -->
+          </div>
+        </div>
+        <div class="variation">
+          <p>Capacitate</p>
+          <div id="capacitate">
+            <!-- Populate "Capacitate" inputs -->
+          </div>
+        </div>
+        <div class="variation">
+          <p>Conținutul coletului comandat</p>
+          <select id="select_variation">
+            <option value="" selected disabled>Alege</option>
+          </select>
+        </div>
+      </form>
+      <p class="text-center login-text"><strong>LOGIN</strong> pentru a vedea prețurile pentru compania dumneavoastră</p>
+      <div class="total">
+        <p>Preț net/ unitate:</p>
+        <p class="big-text">De la <strong>80.222 RON</strong></p>
+      </div>
+      <div class="total">
+        <p>Alege cantitatea</p>
+        <div class="flex-center">
+          <div class="total-amount">
+            <input type="number" value="1" />
+          </div>
+          <p>Preț <strong>TOTAL</strong> net: <strong>80.22 RON</strong></p>
+        </div>
+      </div>
+      <a href="javascript:void(0)" class="btn btn-green"><i class="fas fa-cart-arrow-down"></i> Adaugă în coș</a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

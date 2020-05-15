@@ -1,0 +1,38 @@
+{
+  "cod-1": {
+    "diametru": "5mm",
+    "material": "otel",
+    "capacitate": "0.33 l",
+    "cod": "cod-1"
+  },
+  "cod-2": {
+    "diametru": "6mm",
+    "material": "inox",
+    "capacitate": "0.7 l",
+    "cod": "cod-2"
+  },
+  "cod-3": {
+    "diametru": "7mm",
+    "material": "otel",
+    "capacitate": "0.5 l",
+    "cod": "cod-3"
+  },
+  "cod-4": {
+    "diametru": "4mm",
+    "material": "inox",
+    "capacitate": "0.4 l",
+    "cod": "cod-4"
+  },
+  "cod-5": {
+    "diametru": "4mm",
+    "material": "otel",
+    "capacitate": "0.33 l",
+    "cod": "cod-5"
+  },
+  "cod-6": {
+    "diametru": "6mm",
+    "material": "otel",
+    "capacitate": "0.5 l",
+    "cod": "cod-6"
+  }
+}
